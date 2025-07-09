@@ -1,0 +1,57 @@
+.overlay{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background-container ul{
+padding: 10px 10px;
+margin: 5px;
+width: 100%;
+text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  padding: 20px;;
+}
+form input{
+  font-size: 1rem;
+
+  background: rgba(255, 255, 255, 0.205);
+  color: white;
+  border: solid 2px white;
+  padding: 10px;
+  margin: 10px;
+}
+form input,textarea{
+  border-radius: 10px;
+}
+form textarea{
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.205);
+  color: white;
+  border: solid 2px white;
+  padding: 10px;
+  margin: 10px;
+}
+form button{
+  align-self: center;
+  border: solid 2px white;
+  cursor: pointer;
+  padding: 7px;
+  margin: 10px;;
+  background-color: #a16914;
+  color: white;
+  font-weight: bold;
+
+}
+form button:focus{
+  transform: scale(1.04);
+}
+.background-container ul .h1{
+  border-radius: 50px;
+  background-color: #a16914 ;
+}
